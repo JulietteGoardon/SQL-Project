@@ -12,9 +12,46 @@
 
 ## Project Overview
 
-You were hired by Ironhack to perform an analytics consulting project to understand Ironhack's competitive landscape: which other coding schools are there and what drives their success or lack thereof relative to Ironhack.
+We were hired by Ironhack to perform an analytics consulting project to understand Ironhack's competitive landscape: which other coding schools are there and what drives their success or lack thereof relative to Ironhack.
 
-Your mission is to design, create and populate an appropriate database with information about coding schools that are our competition, as well as design suitable queries that answer business questions of interest (to be defined by you).
+Our mission is to design, create and populate an appropriate database with information about coding schools that are our competition, as well as design suitable queries that answer business questions of interest. The first one being the course we could launch according to market trends and demand. The second question we focused on is relative to the country where we could set up our next campus. 
+
+
+## Our Analysis 
+
+1. Understand the context and environment that Ironhack evolves in to determine our goal. 
+
+  In this first part, we analysed our main competitors. We tried to understand the courses they offer, the countries they are located in and their reviews. 
+
+2. Decision making process 
+
+  In order to gother more data, we used web scrapping to compare informations from Switch Up and Course Report. We also looked for relevant dataset which could support our analysis. 
+
+3. Results 
+
+Competition wise, we compared Ironhack with schools having more than 2000 reviews, more than 4.7 as a rating average and offering more than 5 courses. 
+We could clearly identify Le Wagon as our number competitor and decided to have a look at their strategy. By looking closely at the bootcamp offered we realized that "Data Science" was very popular according to the comments and to Google Trends. 
+
+THE COURSE WE SHOULD LAUNCH IS DATA SCIENCE. 
+
+Data shows that it could attract leads/students, develop our course content and improve the satisfaction score. 
+
+Location wise, we started with EUROPE. 
+We based our analysis on 4 criterias: the size of the market (active population), the expected growth in the high-tech economy by 2035, the expected share of employment with above basic digital skills in 2035 and lastly the GDP of the country. 
+Through a weighted score approach on MySQL, we obtained the following ranking: 
+  1. SWEDEN 
+  2. IRELAND
+  3. FINLAND
+
+  Comparing it to our competition, we realized those had little to no presense and would definitely be a great match. 
+
+Outside of Europe, our goal would be to target the APAC region and more specificaly India due to it's market size and the fact that there is no competition there. However, we are aware that it would be risky and require a search for a local partnership, a local team and a pricing analysis. 
+
+## Technicalities 
+
+Choosing the right primary key in our SQL tables. 
+Creating the ER Diagram with those primary and foreign keys. 
+Finding the relevant data for our analysis (web scrapping Course Report)
 
 ---
 
